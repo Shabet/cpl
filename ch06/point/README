@@ -1,0 +1,14 @@
+short file description
+----------------------
+main.c       : test logic
+point.h      : p127~p132
+pint.c       : p127~p132
+
+makefile     : makefile for VC
+README       : this file
+
+USAGE
+-----
+nmake clean && nmake
+
+enjoy!
