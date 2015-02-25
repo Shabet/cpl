@@ -1,0 +1,13 @@
+short file description
+----------------------
+dayofyear.c  : compare to functions in p111
+main.c       : test logic
+
+makefile     : makefile for VC
+README       : this file
+
+USAGE
+-----
+nmake clean && nmake
+
+enjoy!
