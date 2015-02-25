@@ -1,0 +1,17 @@
+The qsort() function is a modified partition-exchange sort, or quicksort.
+The heapsort() function is a modified selection sort.  The mergesort()
+function is a modified merge sort with exponential search intended for
+sorting data with pre-existing order.
+
+The qsort() and heapsort() functions sort an array of nmemb objects, the
+initial member of which is pointed to by base.  The size of each object
+is specified by size.  mergesort() behaves similarly, but requires that
+size be greater than ``sizeof(void *) / 2''.
+
+The contents of the array base are sorted in ascending order according to
+a comparison function pointed to by compar, which requires two arguments
+pointing to the objects being compared.
+
+The comparison function must return an integer less than, equal to, or
+greater than zero if the first argument is considered to be respectively
+less than, equal to, or greater than the second.
