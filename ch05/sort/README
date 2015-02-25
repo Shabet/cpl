@@ -1,0 +1,28 @@
+short file description
+----------------------
+alloc.c      : p101~p102
+getline.c    : p29
+main.c       : p108
+quicksort.c  : p110
+readlines.c  : p109
+strcomp.c    : p106
+strcopy.c    : p105
+swap.c       : p11
+
+makefile     : makefile for VC
+input.txt    : usage(ex. try.exe < input.txt)
+README       : this file
+
+modified function name
+----------------------
+strcpy -> strcopy
+strcmp -> strcomp
+qsort -> quicksort
+
+NOTE. strcpy, strcmp, qsort are standard library functions.
+
+USAGE
+-----
+nmake clean && nmake
+
+enjoy!
